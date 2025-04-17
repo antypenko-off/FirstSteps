@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("https://i.pinimg.com/736x/94/e9/61/94e961073918a17ecbf80c759a7f58b8.jpg");
+    background-size: auto;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+}
+h1 {
+    font-size: 42px;
+    color: #ffdf00;
+    margin-top: 20px;
+    margin-left: 300px;
+}
+p{
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 30px;
+    border-radius: 15px;
+    line-height: 1.6;
+    color: white;
+}
+span {
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.85);
+    color: black;
+    padding: 10px;
+    margin: 10px 30px;
+    width: 180px;
+    border-radius: 10px;
+}
+img {
+    width: 150px;
+    height: 200px;
+    border-radius: 5px;
+}

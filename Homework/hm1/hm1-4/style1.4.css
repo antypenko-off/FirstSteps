@@ -1,0 +1,10 @@
+p{
+    color: rgba(0, 0, 0, 0.66);
+    margin-left: 10px;
+    font-family: "Segoe UI", sans-serif;
+    font-size: 9px;
+}
+span{
+    background-color: #dcdcdc;
+    padding: 2px 5px;
+}
