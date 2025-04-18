@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+
+}
+
+section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+
+}
+section div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+
+}
+section div p{
+    font-family: "Montserrat", sans-serif;
+    padding: 20px 50px;
+    font-size: 1.5em;
+}
+section div h2{
+font-size: 3rem;
+    padding: 10px 0;
+    font-family: "Noto Sans JP", sans-serif;
+}
+section div h3{
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.5em;
+
+}
+section div a{
+    text-decoration: none;
+    color: black;
+}
+
+#red{
+    background-color: red;
+}
+#gray{
+    background-color: gray;
+}
+#blue{
+    background-color: #ff09f8;
+}
