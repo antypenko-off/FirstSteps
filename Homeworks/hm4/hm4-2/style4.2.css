@@ -1,0 +1,51 @@
+ footer{
+    color:#000;
+    height: 20vh;
+     background: #BDBDBD;
+}
+ header{
+     color:#000;
+     height: 20vh;
+     background: #8D8484;
+ }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Inter, serif;
+    font-size: 4vh;
+}
+main{
+    display: flex;
+}
+main aside{
+    color: #FFF;
+    height: 30vh;
+    width: 27vw;
+    background: #C0BDBD;
+}
+main section{
+    color: #FFF;
+    height: 20vh;
+    width: 73vw;
+}
+.secTop{
+    background: #776969;
+}
+.secBot{
+    background: #441818;
+}
+.secMid{
+    background: #643030;
+}
+.asideBot{
+    background: #644C4C;
+}
+.asideTop{
+    background: #937575;
+}
+aside, footer, header, section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

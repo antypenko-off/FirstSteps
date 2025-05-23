@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    height: 5vh;
+    background: #D9D9D9;
+}
+section{
+    height: 85vh;
+    width: 60vw;
+    background: #A4A4A4;
+}
+aside{
+    height: 85vh;
+    width: 40vw;
+}
+.asideTop{
+    height: 50%;
+    background: #7F7A7A;
+}
+
+.asideBot{
+    height: 50%;
+    background: #6B6161;
+}
+div{
+    height: 85vh;
+    width: 40vw;
+}
+.secLeft{
+    width: 29vw;
+    background: #A4A4A4;
+}
+.secRight{
+    width: 31vw;
+    background: #C1C1C1;
+}
+main{
+    display: flex;
+}
+footer{
+    height: 10vh;
+    background: #AFA9A9;
+}

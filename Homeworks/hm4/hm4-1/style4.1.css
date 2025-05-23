@@ -1,0 +1,28 @@
+header, footer{
+    background: #D9D9D9;
+    height: 22vh;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    display: flex;
+}
+main aside{
+    height: 56vh;
+    width: 27vw;
+    background: #C0BDBD;
+}
+main section{
+    height: 28vh;
+    width: 46vw;
+}
+.secTop{
+    background: #827878;
+}
+.secBot{
+    background: #B7ADAD;
+}
