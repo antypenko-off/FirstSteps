@@ -1,0 +1,106 @@
+.loader-car {
+    position: relative;
+    width: 260px;
+    height: 80px;
+    overflow: hidden;
+    margin: 30px auto;
+    background: #e0e0e0;
+    border-radius: 40px;
+}
+
+.road {
+    position: absolute;
+    bottom: 1px;
+    width: 100%;
+    height: 8px;
+    background: #444;
+}
+
+
+.car {
+    position: absolute;
+    bottom: 10px;
+    left: -80px;
+    width: 80px;
+    height: 40px;
+    animation: drive 2.5s ease-in-out infinite;
+}
+
+.car-body {
+    position: relative;
+    width: 80px;
+    height: 30px;
+    background: linear-gradient(135deg, #007bff, #0056b3);
+    border-radius: 6px 6px 4px 4px;
+}
+
+.window {
+    position: absolute;
+    top: 4px;
+    left: 35px;
+    width: 30px;
+    height: 16px;
+    background: rgba(255,255,255,0.8);
+    border-radius: 2px;
+}
+
+.headlight-left {
+    position: absolute;
+    bottom: 2px;
+    left: -4px;
+    width: 8px;
+    height: 6px;
+    background: #fffa9e;
+    border-radius: 2px;
+}
+
+.headlight-right {
+    position: absolute;
+    bottom: 2px;
+    right: -4px;
+    width: 8px;
+    height: 6px;
+    background: #fffa9e;
+    border-radius: 2px;
+}
+
+.wheel-front {
+    position: absolute;
+    bottom: -6px;
+    width: 18px;
+    height: 18px;
+    background: #333;
+    border-radius: 50%;
+    animation: wheel-spin 0.6s linear infinite;
+    right: 8px;
+}
+
+.wheel-back {
+    position: absolute;
+    bottom: -6px;
+    width: 18px;
+    height: 18px;
+    background: #333;
+    border-radius: 50%;
+    animation: wheel-spin 0.6s linear infinite;
+    left: 8px;
+}
+
+.hub {
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    width: 6px;
+    height: 6px;
+    background: #999;
+    border-radius: 50%;
+}
+
+@keyframes drive {
+    0%   { transform: translateX(0); }
+    100% { transform: translateX(340px); }
+}
+
+@keyframes wheel-spin {
+    to { transform: rotate(360deg); }
+}
