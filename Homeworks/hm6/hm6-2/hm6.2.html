@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Вхід в особистий кабінет</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: #118c87;
+            margin: 0;
+            height: 100vh;
+            font-family: 'Arial', sans-serif;
+
+        }
+
+        .login-container{
+            width: 40vw;
+            height: 45vh;
+            background: #ffffff;
+            border-radius: 10px;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            flex-direction: column;
+
+        }
+        .login-header{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 30%;
+            width: 100%;
+            background: rgba(15, 200, 190, 0.11);
+        }
+        .login-header h1{
+            font-weight: 400;
+            font-size: 45px;
+        }
+        .login-form{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+         input[type="text"],
+         input[type="password"] {
+            width: 400px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 1em;
+             margin: 20px;
+        }
+        input[type="submit"] {
+            width: 120px;
+            height: 35px;
+            border: 1px solid rgba(0, 0, 0, 0.96);
+            border-radius: 7px;
+            font-size: 1em;
+            background: rgba(15, 200, 190, 0.11);
+        }
+         .login-form>div  {
+             margin-top: 15px;
+             width: 420px;
+             display: flex;
+             justify-content: space-between;
+         }
+         .login-form>div>label {
+             font-size: 18px;
+         }
+    </style>
+</head>
+<body>
+<div class="login-container">
+    <div class="login-header">
+        <h1>Вхід в особистий кабінет</h1>
+    </div>
+    <form class="login-form">
+            <label for="login"></label>
+            <input type="text" id="login" name="login" placeholder="Логін або email">
+            <label for="password"></label>
+            <input type="password" id="password" name="password" placeholder="Пароль">
+
+            <div>
+                <label for="remember">
+                    Запам'ятати мене
+                    <input type="checkbox" id="remember" name="remember">
+                </label>
+                <input type="submit" value="Вхід">
+            </div>
+
+
+    </form>
+</div>
+</body>
+</html>
