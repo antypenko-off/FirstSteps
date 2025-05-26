@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    background-color: #fafafa;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 1.1rem;
+}
+.form{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    width: 25vw;
+    height: 70vh;
+    margin: 20px auto;
+}
+.login{
+    height: 70%;
+    border: 1px solid rgba(128, 128, 128, 0.4);
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+.login, .register {
+    border-radius: 1px;
+    background-color: white;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.1);
+}
+
+.register{
+    border: 1px solid rgba(128, 128, 128, 0.4);
+    width: 100%;
+    margin-top: 20px;
+    height: 8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.register a{
+    color: #68b5fa;
+    text-decoration: none;
+font-size: 20px;
+}
+.register p{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.login img{
+    width: 50%;
+    height: 30%;
+}
+.login form{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+form{
+    width: 100%;
+    height: 70%;
+}
+input[type=text], input[type=password] {
+    width: 60%;
+    margin: 10px;
+    height: 10%;
+    font-size: 16px;
+    padding: 8px;
+    border: 1px solid rgba(128, 128, 128, 0.4);
+    background-color: rgba(211, 211, 211, 0.15);
+}
+input[type=submit] {
+    width: 60%;
+    height: 15%;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: #0095f6;
+    font-weight: bold;
+    font-size: 14px;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+h3{
+    color:gray;
+    margin: 20px;
+    font-size: 15px;
+}
+a {
+    text-decoration: none;
+    color: #1877f2;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    display: block;
+    margin: 10px;
+}
+.facebook{
+    font-size: 1.2em;
+}
+.forget-pass{
+    font-size: 0.9em;
+}
