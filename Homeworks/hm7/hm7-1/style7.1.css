@@ -50,3 +50,6 @@ body{
     font-weight: 400;
     line-height: normal;
 }
+.green-border{
+    border: 4px solid #65856E;
+}
