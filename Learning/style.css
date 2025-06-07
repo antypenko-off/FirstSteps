@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+/* ===== RESET ===== */
+*, *::before, *::after {box-sizing: border-box;margin: 0;padding: 0;}
+body {font-family: Inter, Arial, sans-serif;color:#111;background:#fff;line-height:1.6; }
+img {display:block;max-width:100%;height:auto;}
+a {text-decoration:none;color:inherit;}
+ul {list-style:none;}
+
+
+
+/* ===== HEADER ===== */
+.header-wrapper {
+    /* For White Background */
+    box-shadow: 4px 6px 13px 0 rgba(215, 215, 215, 0.25);
+    background: #EFF0F3;
+    width: 100%;
+    height: 86px;
+    top: 0;
+    position: fixed;
+}
+
+.header-content {
+    height: 100%;
+    width: 1250px;
+    margin: 0 auto;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-content h2{
+    color: #001858;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.header-content h2 span{
+    color: #6246EA;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.header-content ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 50px;
+}
+.header-content .search-button a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.header-content .link-coffee{
+    display: flex;
+    padding: 10px 17px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 4px;
+    background: #6246EA;
+    color: #FFFFFE;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.header-content ul li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:  #2B2C34;
+
+    /* 20 px - Sub Heading 2 */
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+/* ===== HI-SECTION ===== */
+.hi-section-wrapper{
+    width: 1440px;
+    height: 814px;
+    margin: 0 auto;
+    background: #EFF0F3;
+}
+.hi-section-content{
+    height: 100%;
+    width: 1250px;
+    margin: 0 auto;
+}
